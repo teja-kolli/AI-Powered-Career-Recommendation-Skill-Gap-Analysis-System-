@@ -1,0 +1,783 @@
+{
+  "projects": [
+    {
+      "title": "Plant Disease Detection",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Intermediate",
+      "description": "Build an image classification system to detect plant diseases from leaf images.",
+      "skills": [
+        "Python",
+        "CNN",
+        "OpenCV",
+        "Deep Learning"
+      ]
+    },
+    {
+      "title": "RAG Career Assistant",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Advanced",
+      "description": "Build a retrieval augmented generation system that provides personalized career recommendations.",
+      "skills": [
+        "Python",
+        "RAG",
+        "Embeddings",
+        "LLM",
+        "Supabase"
+      ]
+    },
+    {
+      "title": "Real-Time Object Detection System",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Advanced",
+      "description": "Develop a real-time object detection application using a deep learning model and webcam or video input.",
+      "skills": [
+        "Python",
+        "YOLO",
+        "OpenCV",
+        "Deep Learning",
+        "Computer Vision"
+      ]
+    },
+    {
+      "title": "Face Recognition Attendance System",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Intermediate",
+      "description": "Create an automated attendance system that recognizes registered faces and records attendance.",
+      "skills": [
+        "Python",
+        "OpenCV",
+        "Face Recognition",
+        "Computer Vision",
+        "SQL"
+      ]
+    },
+    {
+      "title": "Sentiment Analysis Application",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Intermediate",
+      "description": "Build a text sentiment analysis system that classifies user reviews as positive, negative, or neutral.",
+      "skills": [
+        "Python",
+        "NLP",
+        "Scikit-learn",
+        "Text Processing",
+        "Machine Learning"
+      ]
+    },
+    {
+      "title": "AI Resume Analyzer",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Advanced",
+      "description": "Build an AI system that extracts skills from resumes and compares them with job requirements.",
+      "skills": [
+        "Python",
+        "NLP",
+        "LLM",
+        "Embeddings",
+        "RAG"
+      ]
+    },
+    {
+      "title": "Image Caption Generator",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Advanced",
+      "description": "Develop a deep learning application that generates natural-language captions for images.",
+      "skills": [
+        "Python",
+        "CNN",
+        "Transformers",
+        "NLP",
+        "Deep Learning"
+      ]
+    },
+    {
+      "title": "AI Chatbot with LLM",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Advanced",
+      "description": "Create an intelligent conversational chatbot using a large language model and contextual prompts.",
+      "skills": [
+        "Python",
+        "LLM",
+        "Prompt Engineering",
+        "NLP",
+        "APIs"
+      ]
+    },
+    {
+      "title": "Crop Yield Prediction",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Intermediate",
+      "description": "Build a machine learning system that predicts crop yield using agricultural and environmental data.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Regression",
+        "Machine Learning"
+      ]
+    },
+    {
+      "title": "AI Recommendation Engine",
+      "domain": "AI/ML Engineer",
+      "difficulty": "Advanced",
+      "description": "Develop a personalized recommendation engine that suggests content or products based on user behavior.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Recommendation Systems",
+        "Pandas",
+        "SQL"
+      ]
+    },
+    {
+      "title": "Customer Churn Prediction",
+      "domain": "Data Scientist",
+      "difficulty": "Intermediate",
+      "description": "Build a machine learning model to identify customers who are likely to leave a service.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Classification",
+        "Data Analysis"
+      ]
+    },
+    {
+      "title": "Sales Data Analysis Dashboard",
+      "domain": "Data Scientist",
+      "difficulty": "Beginner",
+      "description": "Analyze sales data and create visualizations that reveal revenue, product, and customer trends.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Data Visualization",
+        "SQL"
+      ]
+    },
+    {
+      "title": "House Price Prediction",
+      "domain": "Data Scientist",
+      "difficulty": "Intermediate",
+      "description": "Develop a regression model that predicts house prices from property features.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Regression",
+        "Feature Engineering"
+      ]
+    },
+    {
+      "title": "Customer Segmentation",
+      "domain": "Data Scientist",
+      "difficulty": "Intermediate",
+      "description": "Segment customers into meaningful groups using unsupervised machine learning.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Clustering",
+        "K-Means",
+        "Data Analysis"
+      ]
+    },
+    {
+      "title": "Stock Market Data Analysis",
+      "domain": "Data Scientist",
+      "difficulty": "Advanced",
+      "description": "Analyze historical market data to identify trends, correlations, and statistical patterns.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Statistics",
+        "Time Series",
+        "Data Visualization"
+      ]
+    },
+    {
+      "title": "COVID-19 Data Analysis",
+      "domain": "Data Scientist",
+      "difficulty": "Intermediate",
+      "description": "Perform exploratory and statistical analysis on public health data and visualize important trends.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "EDA",
+        "Statistics",
+        "Matplotlib"
+      ]
+    },
+    {
+      "title": "Fraud Detection System",
+      "domain": "Data Scientist",
+      "difficulty": "Advanced",
+      "description": "Build a machine learning model that identifies potentially fraudulent financial transactions.",
+      "skills": [
+        "Python",
+        "Scikit-learn",
+        "Classification",
+        "Anomaly Detection",
+        "Feature Engineering"
+      ]
+    },
+    {
+      "title": "Movie Recommendation Analysis",
+      "domain": "Data Scientist",
+      "difficulty": "Intermediate",
+      "description": "Analyze user ratings and build a recommendation system for movies.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Recommendation Systems",
+        "Similarity",
+        "Data Analysis"
+      ]
+    },
+    {
+      "title": "Customer Lifetime Value Prediction",
+      "domain": "Data Scientist",
+      "difficulty": "Advanced",
+      "description": "Estimate the future value of customers using historical transaction and behavioral data.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "Statistics",
+        "Regression",
+        "Feature Engineering"
+      ]
+    },
+    {
+      "title": "Air Quality Analysis",
+      "domain": "Data Scientist",
+      "difficulty": "Intermediate",
+      "description": "Analyze air-quality measurements to identify pollution patterns and trends.",
+      "skills": [
+        "Python",
+        "Pandas",
+        "EDA",
+        "Statistics",
+        "Data Visualization"
+      ]
+    },
+    {
+      "title": "E-Commerce Website",
+      "domain": "Web Developer",
+      "difficulty": "Advanced",
+      "description": "Build a full-stack e-commerce platform with products, cart, authentication, orders, and payments.",
+      "skills": [
+        "React",
+        "Django",
+        "REST API",
+        "PostgreSQL",
+        "Authentication"
+      ]
+    },
+    {
+      "title": "Task Management Application",
+      "domain": "Web Developer",
+      "difficulty": "Intermediate",
+      "description": "Create a web application where users can create, update, organize, and track tasks.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "REST API",
+        "Django",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Student Management System",
+      "domain": "Web Developer",
+      "difficulty": "Intermediate",
+      "description": "Develop a web application for managing student profiles, courses, grades, and attendance.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Django",
+        "SQL"
+      ]
+    },
+    {
+      "title": "Online Learning Platform",
+      "domain": "Web Developer",
+      "difficulty": "Advanced",
+      "description": "Build an online learning platform with courses, lessons, student progress, and authentication.",
+      "skills": [
+        "React",
+        "Django",
+        "REST API",
+        "PostgreSQL",
+        "JWT"
+      ]
+    },
+    {
+      "title": "Job Portal",
+      "domain": "Web Developer",
+      "difficulty": "Advanced",
+      "description": "Create a job portal where companies can post jobs and candidates can search and apply for positions.",
+      "skills": [
+        "React",
+        "Django",
+        "REST API",
+        "PostgreSQL",
+        "Authentication"
+      ]
+    },
+    {
+      "title": "Blog Management Platform",
+      "domain": "Web Developer",
+      "difficulty": "Intermediate",
+      "description": "Build a blogging platform with user accounts, posts, comments, categories, and search.",
+      "skills": [
+        "React",
+        "Django",
+        "REST API",
+        "SQL",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Expense Tracker",
+      "domain": "Web Developer",
+      "difficulty": "Beginner",
+      "description": "Create a responsive application for recording expenses and displaying spending summaries.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Local Storage"
+      ]
+    },
+    {
+      "title": "Real-Time Chat Application",
+      "domain": "Web Developer",
+      "difficulty": "Advanced",
+      "description": "Develop a real-time messaging application where authenticated users can communicate instantly.",
+      "skills": [
+        "React",
+        "Django",
+        "WebSockets",
+        "REST API",
+        "Authentication"
+      ]
+    },
+    {
+      "title": "Portfolio Website",
+      "domain": "Web Developer",
+      "difficulty": "Beginner",
+      "description": "Build a responsive personal portfolio showcasing skills, projects, education, and contact information.",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design",
+        "Git"
+      ]
+    },
+    {
+      "title": "Food Delivery Web Application",
+      "domain": "Web Developer",
+      "difficulty": "Advanced",
+      "description": "Create a food ordering platform with restaurants, menus, cart, orders, and user authentication.",
+      "skills": [
+        "React",
+        "Django",
+        "REST API",
+        "PostgreSQL",
+        "JWT"
+      ]
+    },
+    {
+      "title": "Library Management System",
+      "domain": "Software Developer",
+      "difficulty": "Beginner",
+      "description": "Build a software application for managing books, members, borrowing, and returns.",
+      "skills": [
+        "Java",
+        "OOP",
+        "SQL",
+        "CRUD",
+        "Database Management"
+      ]
+    },
+    {
+      "title": "Banking Management System",
+      "domain": "Software Developer",
+      "difficulty": "Intermediate",
+      "description": "Develop a banking application supporting accounts, deposits, withdrawals, transfers, and transaction history.",
+      "skills": [
+        "Java",
+        "OOP",
+        "SQL",
+        "Transactions",
+        "Exception Handling"
+      ]
+    },
+    {
+      "title": "Inventory Management System",
+      "domain": "Software Developer",
+      "difficulty": "Intermediate",
+      "description": "Create software for tracking products, stock levels, suppliers, and inventory transactions.",
+      "skills": [
+        "Java",
+        "OOP",
+        "SQL",
+        "Data Structures",
+        "Database Management"
+      ]
+    },
+    {
+      "title": "Online Compiler",
+      "domain": "Software Developer",
+      "difficulty": "Advanced",
+      "description": "Build a web-based coding environment that accepts source code and executes supported programming languages.",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "APIs",
+        "Process Management",
+        "Security"
+      ]
+    },
+    {
+      "title": "File Compression Utility",
+      "domain": "Software Developer",
+      "difficulty": "Advanced",
+      "description": "Develop a utility that compresses and decompresses files using suitable algorithms and data structures.",
+      "skills": [
+        "Java",
+        "Data Structures",
+        "Algorithms",
+        "File Handling",
+        "Compression"
+      ]
+    },
+    {
+      "title": "URL Shortener",
+      "domain": "Software Developer",
+      "difficulty": "Intermediate",
+      "description": "Create a service that converts long URLs into short links and redirects users to the original URLs.",
+      "skills": [
+        "Java",
+        "SQL",
+        "REST API",
+        "Database Design",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Mini Search Engine",
+      "domain": "Software Developer",
+      "difficulty": "Advanced",
+      "description": "Build a basic search engine that indexes documents and retrieves relevant results for user queries.",
+      "skills": [
+        "Python",
+        "Data Structures",
+        "Algorithms",
+        "NLP",
+        "Search"
+      ]
+    },
+    {
+      "title": "Chat Application",
+      "domain": "Software Developer",
+      "difficulty": "Intermediate",
+      "description": "Develop a client-server messaging application with user accounts and message history.",
+      "skills": [
+        "Java",
+        "Networking",
+        "Sockets",
+        "SQL",
+        "OOP"
+      ]
+    },
+    {
+      "title": "File Management System",
+      "domain": "Software Developer",
+      "difficulty": "Intermediate",
+      "description": "Create an application for organizing, searching, copying, moving, and deleting files.",
+      "skills": [
+        "Python",
+        "File Handling",
+        "OOP",
+        "Data Structures",
+        "Operating Systems"
+      ]
+    },
+    {
+      "title": "Distributed Task Scheduler",
+      "domain": "Software Developer",
+      "difficulty": "Advanced",
+      "description": "Build a system that schedules and distributes background tasks across multiple workers.",
+      "skills": [
+        "Python",
+        "Multithreading",
+        "Distributed Systems",
+        "Queues",
+        "System Design"
+      ]
+    },
+    {
+      "title": "Cloud File Storage System",
+      "domain": "Cloud Engineer",
+      "difficulty": "Intermediate",
+      "description": "Build a cloud-based file storage application using object storage and secure user access.",
+      "skills": [
+        "AWS",
+        "S3",
+        "IAM",
+        "Python",
+        "Cloud Storage"
+      ]
+    },
+    {
+      "title": "Scalable Web Application on AWS",
+      "domain": "Cloud Engineer",
+      "difficulty": "Advanced",
+      "description": "Deploy a scalable web application using compute, database, networking, and load-balancing services.",
+      "skills": [
+        "AWS",
+        "EC2",
+        "RDS",
+        "VPC",
+        "Load Balancing"
+      ]
+    },
+    {
+      "title": "Serverless API",
+      "domain": "Cloud Engineer",
+      "difficulty": "Intermediate",
+      "description": "Create a serverless REST API using managed cloud functions and a cloud database.",
+      "skills": [
+        "AWS",
+        "Lambda",
+        "API Gateway",
+        "DynamoDB",
+        "Serverless"
+      ]
+    },
+    {
+      "title": "Cloud Monitoring Dashboard",
+      "domain": "Cloud Engineer",
+      "difficulty": "Intermediate",
+      "description": "Build a dashboard that collects and displays cloud infrastructure metrics and logs.",
+      "skills": [
+        "AWS",
+        "CloudWatch",
+        "Monitoring",
+        "Logging",
+        "Python"
+      ]
+    },
+    {
+      "title": "Multi-Tier Cloud Architecture",
+      "domain": "Cloud Engineer",
+      "difficulty": "Advanced",
+      "description": "Design and deploy a secure multi-tier application with separate presentation, application, and database layers.",
+      "skills": [
+        "AWS",
+        "VPC",
+        "EC2",
+        "RDS",
+        "Security"
+      ]
+    },
+    {
+      "title": "Cloud Backup Automation",
+      "domain": "Cloud Engineer",
+      "difficulty": "Intermediate",
+      "description": "Develop an automated backup system that securely stores application data in cloud storage.",
+      "skills": [
+        "AWS",
+        "S3",
+        "Python",
+        "Automation",
+        "IAM"
+      ]
+    },
+    {
+      "title": "Dockerized Cloud Application",
+      "domain": "Cloud Engineer",
+      "difficulty": "Intermediate",
+      "description": "Containerize a web application and deploy it to a cloud environment.",
+      "skills": [
+        "Docker",
+        "Containers",
+        "AWS",
+        "Linux",
+        "Deployment"
+      ]
+    },
+    {
+      "title": "Infrastructure as Code Project",
+      "domain": "Cloud Engineer",
+      "difficulty": "Advanced",
+      "description": "Provision a complete cloud infrastructure environment using declarative infrastructure as code.",
+      "skills": [
+        "Terraform",
+        "AWS",
+        "Infrastructure as Code",
+        "Automation",
+        "Cloud Infrastructure"
+      ]
+    },
+    {
+      "title": "Cloud-Based Data Pipeline",
+      "domain": "Cloud Engineer",
+      "difficulty": "Advanced",
+      "description": "Build a cloud data pipeline that collects, processes, stores, and monitors data.",
+      "skills": [
+        "AWS",
+        "Python",
+        "ETL",
+        "Cloud Storage",
+        "Monitoring"
+      ]
+    },
+    {
+      "title": "Secure Cloud Application",
+      "domain": "Cloud Engineer",
+      "difficulty": "Advanced",
+      "description": "Deploy an application with secure identity, networking, storage, encryption, and monitoring.",
+      "skills": [
+        "AWS",
+        "IAM",
+        "VPC",
+        "Encryption",
+        "Cloud Security"
+      ]
+    },
+    {
+      "title": "CI/CD Pipeline for Web Application",
+      "domain": "DevOps Engineer",
+      "difficulty": "Intermediate",
+      "description": "Build an automated pipeline that tests, builds, and deploys a web application.",
+      "skills": [
+        "GitHub Actions",
+        "CI/CD",
+        "Docker",
+        "Git",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Dockerized Django Application",
+      "domain": "DevOps Engineer",
+      "difficulty": "Intermediate",
+      "description": "Containerize a Django application with its database and configure it for repeatable deployment.",
+      "skills": [
+        "Docker",
+        "Docker Compose",
+        "Django",
+        "PostgreSQL",
+        "Linux"
+      ]
+    },
+    {
+      "title": "Kubernetes Web Application Deployment",
+      "domain": "DevOps Engineer",
+      "difficulty": "Advanced",
+      "description": "Deploy and manage a containerized web application on a Kubernetes cluster.",
+      "skills": [
+        "Kubernetes",
+        "Docker",
+        "Deployments",
+        "Services",
+        "Ingress"
+      ]
+    },
+    {
+      "title": "Infrastructure Automation with Terraform",
+      "domain": "DevOps Engineer",
+      "difficulty": "Advanced",
+      "description": "Automate the creation and management of cloud infrastructure using Terraform.",
+      "skills": [
+        "Terraform",
+        "IaC",
+        "AWS",
+        "Automation",
+        "Cloud Infrastructure"
+      ]
+    },
+    {
+      "title": "Jenkins CI/CD Pipeline",
+      "domain": "DevOps Engineer",
+      "difficulty": "Intermediate",
+      "description": "Create a Jenkins pipeline that automatically builds, tests, and deploys an application.",
+      "skills": [
+        "Jenkins",
+        "CI/CD",
+        "Pipelines",
+        "Git",
+        "Automation"
+      ]
+    },
+    {
+      "title": "DevOps Monitoring System",
+      "domain": "DevOps Engineer",
+      "difficulty": "Advanced",
+      "description": "Set up infrastructure and application monitoring with metrics, dashboards, and alerts.",
+      "skills": [
+        "Prometheus",
+        "Grafana",
+        "Monitoring",
+        "Linux",
+        "Alerting"
+      ]
+    },
+    {
+      "title": "Automated Server Deployment",
+      "domain": "DevOps Engineer",
+      "difficulty": "Intermediate",
+      "description": "Automate application deployment and server configuration using scripts and infrastructure tools.",
+      "skills": [
+        "Linux",
+        "Bash",
+        "Python",
+        "Automation",
+        "SSH"
+      ]
+    },
+    {
+      "title": "Microservices Deployment Platform",
+      "domain": "DevOps Engineer",
+      "difficulty": "Advanced",
+      "description": "Deploy multiple containerized microservices with service discovery, networking, and automated delivery.",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "Microservices",
+        "CI/CD",
+        "Networking"
+      ]
+    },
+    {
+      "title": "DevSecOps Pipeline",
+      "domain": "DevOps Engineer",
+      "difficulty": "Advanced",
+      "description": "Build a CI/CD pipeline that integrates automated security scanning into the software delivery process.",
+      "skills": [
+        "CI/CD",
+        "DevSecOps",
+        "Docker",
+        "Security",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "title": "Log Aggregation System",
+      "domain": "DevOps Engineer",
+      "difficulty": "Advanced",
+      "description": "Create a centralized system for collecting, searching, and monitoring logs from multiple services.",
+      "skills": [
+        "Logging",
+        "Monitoring",
+        "Docker",
+        "Linux",
+        "ELK Stack"
+      ]
+    }
+  ]
+}

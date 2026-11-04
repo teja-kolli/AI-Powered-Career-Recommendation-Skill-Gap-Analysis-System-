@@ -1,0 +1,701 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.fingerprint-page {
+    min-height: 100vh;
+    background: #f5f7fb;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    color: #111827;
+}
+
+
+.fingerprint-container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+/* =====================================================
+   BACK
+===================================================== */
+
+.fingerprint-back {
+    border: none;
+    background: transparent;
+    color: #475569;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 0;
+    margin-bottom: 25px;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.fingerprint-header {
+    margin-bottom: 35px;
+}
+
+
+.fingerprint-header > span {
+    display: inline-block;
+    color: #4f46e5;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+
+.fingerprint-header h1 {
+    margin: 0 0 12px;
+    font-size: 42px;
+}
+
+
+.fingerprint-header p {
+    max-width: 800px;
+    margin: 0;
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   EMPTY
+===================================================== */
+
+.fingerprint-empty {
+    padding: 55px 30px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(15, 23, 42, 0.06);
+}
+
+
+.empty-icon {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+
+.fingerprint-empty h2 {
+    margin: 0 0 10px;
+    font-size: 27px;
+}
+
+
+.fingerprint-empty p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    color: #64748b;
+    line-height: 1.7;
+}
+
+
+.fingerprint-empty button,
+.regenerate-container button {
+    border: none;
+    border-radius: 10px;
+    padding: 14px 22px;
+    background: #6366f1;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.fingerprint-empty button:disabled,
+.regenerate-container button:disabled {
+    opacity: 0.6;
+}
+
+
+/* =====================================================
+   LOADING
+===================================================== */
+
+.fingerprint-loading,
+.fingerprint-generating {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.fingerprint-loading > div,
+.generating-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+
+.fingerprint-loading h2,
+.fingerprint-generating h2 {
+    margin: 0 0 10px;
+}
+
+
+.fingerprint-loading p,
+.fingerprint-generating p {
+    color: #64748b;
+}
+
+
+.fingerprint-progress {
+    width: 280px;
+    height: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+    background: #e2e8f0;
+    border-radius: 10px;
+}
+
+
+.fingerprint-progress div {
+    width: 40%;
+    height: 100%;
+    background: #6366f1;
+    animation: fingerprintLoading 1.4s infinite;
+}
+
+
+@keyframes fingerprintLoading {
+
+    from {
+        transform: translateX(-120%);
+    }
+
+    to {
+        transform: translateX(700%);
+    }
+
+}
+
+
+/* =====================================================
+   ERROR
+===================================================== */
+
+.fingerprint-error {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 18px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    background: #fff1f2;
+    color: #be123c;
+}
+
+
+.fingerprint-error p {
+    margin: 5px 0 0;
+    color: #64748b;
+}
+
+
+/* =====================================================
+   OVERVIEW
+===================================================== */
+
+.fingerprint-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 22px rgba(15, 23, 42, 0.06);
+}
+
+
+.overview-main > span,
+.career-score > span {
+    display: block;
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+.overview-main h2 {
+    margin: 8px 0 10px;
+    font-size: 28px;
+}
+
+
+.overview-main p {
+    max-width: 700px;
+    margin: 0;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+
+.career-score {
+    min-width: 150px;
+    text-align: right;
+}
+
+
+.career-score strong {
+    display: block;
+    margin-top: 7px;
+    color: #4f46e5;
+    font-size: 40px;
+}
+
+
+/* =====================================================
+   SECTION
+===================================================== */
+
+.fingerprint-section {
+    margin-bottom: 42px;
+}
+
+
+.section-heading {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+
+.section-heading > span {
+    font-size: 28px;
+}
+
+
+.section-heading small {
+    display: block;
+    color: #64748b;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+.section-heading h2 {
+    margin: 5px 0 0;
+    font-size: 25px;
+}
+
+
+/* =====================================================
+   SUMMARY
+===================================================== */
+
+.summary-card,
+.description-card {
+    padding: 23px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+}
+
+
+.summary-card p,
+.description-card p {
+    margin: 0;
+    color: #475569;
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   GRID
+===================================================== */
+
+.fingerprint-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+
+.profile-card {
+    padding: 21px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+}
+
+
+.profile-card h3 {
+    margin: 0 0 14px;
+}
+
+
+/* =====================================================
+   TAGS
+===================================================== */
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+
+.tag-list span {
+    padding: 7px 11px;
+    border-radius: 8px;
+    background: #eef2ff;
+    color: #4338ca;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   SKILLS
+===================================================== */
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 17px;
+    border-radius: 13px;
+    background: white;
+}
+
+
+.skill-row > div:first-child {
+    min-width: 150px;
+}
+
+
+.skill-row strong {
+    display: block;
+}
+
+
+.skill-row small {
+    display: block;
+    margin-top: 4px;
+    color: #94a3b8;
+}
+
+
+.skill-progress {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 45%;
+}
+
+
+.skill-progress > div {
+    flex: 1;
+    height: 7px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #e2e8f0;
+}
+
+
+.skill-progress span {
+    display: block;
+    height: 100%;
+    border-radius: 10px;
+    background: #6366f1;
+}
+
+
+/* =====================================================
+   STRENGTHS
+===================================================== */
+
+.strength-grid,
+.development-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+
+.strength-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+    padding: 20px;
+    border-radius: 14px;
+    background: white;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+}
+
+
+.strength-icon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #dcfce7;
+    color: #166534;
+    font-weight: 800;
+}
+
+
+.strength-card h3,
+.development-card h3 {
+    margin: 0 0 7px;
+}
+
+
+.strength-card p,
+.development-card p {
+    margin: 0;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   DEVELOPMENT
+===================================================== */
+
+.development-card {
+    padding: 20px;
+    border-radius: 14px;
+    background: white;
+    border-left: 4px solid #f59e0b;
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.05);
+}
+
+
+/* =====================================================
+   LEARNING
+===================================================== */
+
+.learning-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+
+.learning-card {
+    padding: 20px;
+    border-radius: 14px;
+    background: white;
+}
+
+
+.learning-card span {
+    display: block;
+    color: #64748b;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 9px;
+}
+
+
+.learning-card strong {
+    font-size: 20px;
+}
+
+
+.learning-card p {
+    margin: 0;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   CHARACTERISTICS
+===================================================== */
+
+.characteristics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.characteristics > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 13px;
+    border-radius: 9px;
+    background: white;
+    color: #475569;
+}
+
+
+.characteristics span {
+    color: #16a34a;
+    font-weight: 800;
+}
+
+
+/* =====================================================
+   CAREER PATHS
+===================================================== */
+
+.career-path-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+
+.career-path-card {
+    padding: 20px;
+    border-radius: 14px;
+    background: white;
+}
+
+
+.career-path-card > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.career-path-card h3 {
+    margin: 0;
+}
+
+
+.career-path-card span {
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: #eef2ff;
+    color: #4338ca;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+
+.career-path-card p {
+    margin: 10px 0 0;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   CAREER FIT
+===================================================== */
+
+.career-fit-card {
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 18px;
+    background: #eef2ff;
+    border: 1px solid #c7d2fe;
+}
+
+
+.career-fit-card > span {
+    color: #4f46e5;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+.career-fit-card h2 {
+    margin: 8px 0;
+}
+
+
+.career-fit-card > p {
+    color: #475569;
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   REGENERATE
+===================================================== */
+
+.regenerate-container {
+    padding: 20px 0 50px;
+    text-align: center;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 800px) {
+
+    .fingerprint-page {
+        padding: 18px;
+    }
+
+
+    .fingerprint-header h1 {
+        font-size: 32px;
+    }
+
+
+    .fingerprint-overview {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .career-score {
+        text-align: left;
+    }
+
+
+    .fingerprint-grid,
+    .strength-grid,
+    .development-grid,
+    .career-path-grid,
+    .learning-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .skill-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .skill-progress {
+        width: 100%;
+    }
+
+}

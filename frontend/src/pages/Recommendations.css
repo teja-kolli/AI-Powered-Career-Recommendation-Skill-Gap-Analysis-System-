@@ -1,0 +1,170 @@
+.recommend-page {
+    min-height: 100vh;
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.recommend-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.recommend-back {
+    border: none;
+    background: transparent;
+    color: #6366f1;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.recommend-header span {
+    color: #6366f1;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.recommend-header h1 {
+    color: #111827;
+    font-size: 34px;
+    margin: 8px 0;
+}
+
+.recommend-header p {
+    color: #6b7280;
+}
+
+.recommend-filters {
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.recommend-filters button {
+    padding: 9px 16px;
+    border: 1px solid #d1d5db;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #374151;
+}
+
+.recommend-filters button.active {
+    background: #6366f1;
+    border-color: #6366f1;
+    color: white;
+}
+
+.recommend-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.recommend-card {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.04);
+}
+
+.recommend-card-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.recommend-icon {
+    width: 48px;
+    height: 48px;
+    background: #eef2ff;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.recommend-card-top span {
+    color: #6366f1;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.recommend-card h2 {
+    color: #111827;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.recommend-card p {
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.recommend-card a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.recommend-empty {
+    background: white;
+    text-align: center;
+    padding: 70px 30px;
+    border-radius: 16px;
+}
+
+.recommend-empty div {
+    font-size: 45px;
+}
+
+.recommend-empty h2 {
+    color: #111827;
+}
+
+.recommend-empty p {
+    max-width: 550px;
+    margin: auto auto 25px;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+.recommend-empty button {
+    border: none;
+    background: #6366f1;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.recommend-loading {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6b7280;
+}
+
+@media(max-width:900px) {
+    .recommend-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:600px) {
+    .recommend-page {
+        padding: 20px;
+    }
+
+    .recommend-grid {
+        grid-template-columns: 1fr;
+    }
+}

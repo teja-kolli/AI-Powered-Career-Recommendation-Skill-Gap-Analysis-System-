@@ -1,0 +1,459 @@
+{
+  "courses": [
+    {
+      "domain": "AI/ML Engineer",
+      "courses": [
+        {
+          "title": "Python for AI and Machine Learning",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["Python", "OOP", "Functions", "Data Structures"],
+          "url": "https://www.coursera.org/courses?query=python%20machine%20learning"
+        },
+        {
+          "title": "NumPy and Pandas for Machine Learning",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["NumPy", "Pandas", "DataFrames", "Data Analysis"],
+          "url": "https://www.coursera.org/courses?query=numpy%20pandas"
+        },
+        {
+          "title": "SQL for Data Science",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["SQL", "SELECT", "JOIN", "GROUP BY"],
+          "url": "https://www.coursera.org/courses?query=sql%20for%20data%20science"
+        },
+        {
+          "title": "Mathematics for Machine Learning",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["Linear Algebra", "Calculus", "Probability", "Statistics"],
+          "url": "https://www.coursera.org/courses?query=mathematics%20for%20machine%20learning"
+        },
+        {
+          "title": "Machine Learning with Scikit-learn",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["Machine Learning", "Regression", "Classification", "Clustering"],
+          "url": "https://www.coursera.org/courses?query=scikit-learn%20machine%20learning"
+        },
+        {
+          "title": "Deep Learning with PyTorch",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["PyTorch", "Neural Networks", "CNN", "Training"],
+          "url": "https://www.coursera.org/courses?query=deep%20learning%20pytorch"
+        },
+        {
+          "title": "Computer Vision with OpenCV",
+          "provider": "Udemy",
+          "level": "Intermediate",
+          "skills": ["OpenCV", "Image Processing", "Computer Vision", "Image Classification"],
+          "url": "https://www.udemy.com/courses/search/?q=opencv%20computer%20vision"
+        },
+        {
+          "title": "Natural Language Processing",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["NLP", "Text Processing", "Transformers", "Tokenization"],
+          "url": "https://www.coursera.org/courses?query=natural%20language%20processing"
+        },
+        {
+          "title": "Generative AI and Large Language Models",
+          "provider": "Coursera",
+          "level": "Advanced",
+          "skills": ["LLMs", "Prompt Engineering", "Transformers", "Generative AI"],
+          "url": "https://www.coursera.org/courses?query=generative%20ai%20large%20language%20models"
+        },
+        {
+          "title": "RAG and LLM Application Development",
+          "provider": "Udemy",
+          "level": "Advanced",
+          "skills": ["RAG", "Embeddings", "Vector Databases", "LangChain"],
+          "url": "https://www.udemy.com/courses/search/?q=rag%20langchain%20llm"
+        }
+      ]
+    },
+
+    {
+      "domain": "Data Scientist",
+      "courses": [
+        {
+          "title": "Python for Data Science",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["Python", "Functions", "Data Structures", "Programming"],
+          "url": "https://www.coursera.org/courses?query=python%20data%20science"
+        },
+        {
+          "title": "NumPy for Data Analysis",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["NumPy", "Arrays", "Vectorization", "Numerical Computing"],
+          "url": "https://www.coursera.org/courses?query=numpy"
+        },
+        {
+          "title": "Pandas Data Analysis",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["Pandas", "DataFrames", "Data Cleaning", "Data Manipulation"],
+          "url": "https://www.coursera.org/courses?query=pandas%20data%20analysis"
+        },
+        {
+          "title": "SQL for Data Analysis",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["SQL", "JOIN", "GROUP BY", "Window Functions"],
+          "url": "https://www.coursera.org/courses?query=sql%20data%20analysis"
+        },
+        {
+          "title": "Statistics for Data Science",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["Probability", "Statistics", "Hypothesis Testing", "Distributions"],
+          "url": "https://www.coursera.org/courses?query=statistics%20data%20science"
+        },
+        {
+          "title": "Data Visualization with Python",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["Matplotlib", "Seaborn", "Visualization", "Data Storytelling"],
+          "url": "https://www.coursera.org/courses?query=data%20visualization%20python"
+        },
+        {
+          "title": "Exploratory Data Analysis",
+          "provider": "Udemy",
+          "level": "Intermediate",
+          "skills": ["EDA", "Data Cleaning", "Outlier Detection", "Correlation"],
+          "url": "https://www.udemy.com/courses/search/?q=exploratory%20data%20analysis"
+        },
+        {
+          "title": "Machine Learning for Data Science",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["Scikit-learn", "Regression", "Classification", "Clustering"],
+          "url": "https://www.coursera.org/courses?query=machine%20learning%20data%20science"
+        },
+        {
+          "title": "Advanced Machine Learning",
+          "provider": "Coursera",
+          "level": "Advanced",
+          "skills": ["Random Forest", "XGBoost", "Ensemble Learning", "Feature Engineering"],
+          "url": "https://www.coursera.org/courses?query=advanced%20machine%20learning"
+        },
+        {
+          "title": "Generative AI for Data Science",
+          "provider": "Coursera",
+          "level": "Advanced",
+          "skills": ["LLMs", "Prompt Engineering", "RAG", "AI-assisted Analysis"],
+          "url": "https://www.coursera.org/courses?query=generative%20ai%20data%20science"
+        }
+      ]
+    },
+
+    {
+      "domain": "Web Developer",
+      "courses": [
+        {
+          "title": "HTML Fundamentals",
+          "provider": "freeCodeCamp",
+          "level": "Beginner",
+          "skills": ["HTML", "Semantic HTML", "Forms", "Tables"],
+          "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+        },
+        {
+          "title": "CSS Fundamentals",
+          "provider": "freeCodeCamp",
+          "level": "Beginner",
+          "skills": ["CSS", "Selectors", "Box Model", "Flexbox", "Grid"],
+          "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+        },
+        {
+          "title": "JavaScript Fundamentals",
+          "provider": "freeCodeCamp",
+          "level": "Beginner",
+          "skills": ["JavaScript", "Variables", "Functions", "Arrays", "Objects"],
+          "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/"
+        },
+        {
+          "title": "Advanced JavaScript",
+          "provider": "Udemy",
+          "level": "Intermediate",
+          "skills": ["ES6", "Promises", "Async/Await", "Fetch API", "Modules"],
+          "url": "https://www.udemy.com/courses/search/?q=advanced%20javascript"
+        },
+        {
+          "title": "Git and GitHub",
+          "provider": "GitHub",
+          "level": "Beginner",
+          "skills": ["Git", "GitHub", "Branches", "Pull Requests"],
+          "url": "https://skills.github.com/"
+        },
+        {
+          "title": "React.js Development",
+          "provider": "React",
+          "level": "Intermediate",
+          "skills": ["React", "Components", "Props", "State", "Hooks"],
+          "url": "https://react.dev/learn"
+        },
+        {
+          "title": "Frontend Development with React",
+          "provider": "Udemy",
+          "level": "Intermediate",
+          "skills": ["React", "Axios", "React Router", "API Integration"],
+          "url": "https://www.udemy.com/courses/search/?q=react%20frontend%20development"
+        },
+        {
+          "title": "Django Web Development",
+          "provider": "Django",
+          "level": "Intermediate",
+          "skills": ["Django", "Models", "Views", "Templates", "Authentication"],
+          "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/"
+        },
+        {
+          "title": "Django REST Framework",
+          "provider": "Django REST Framework",
+          "level": "Advanced",
+          "skills": ["REST API", "Serializers", "ViewSets", "JWT", "API Authentication"],
+          "url": "https://www.django-rest-framework.org/tutorial/quickstart/"
+        },
+        {
+          "title": "Full Stack Web Development",
+          "provider": "Coursera",
+          "level": "Advanced",
+          "skills": ["React", "Django", "REST API", "PostgreSQL", "Deployment"],
+          "url": "https://www.coursera.org/courses?query=full%20stack%20web%20development"
+        }
+      ]
+    },
+
+    {
+      "domain": "Software Developer",
+      "courses": [
+        {
+          "title": "Programming Fundamentals",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["Programming", "Variables", "Loops", "Conditions", "Functions"],
+          "url": "https://www.coursera.org/courses?query=programming%20fundamentals"
+        },
+        {
+          "title": "Object Oriented Programming",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["OOP", "Classes", "Objects", "Inheritance", "Polymorphism"],
+          "url": "https://www.coursera.org/courses?query=object%20oriented%20programming"
+        },
+        {
+          "title": "Data Structures and Algorithms",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["Arrays", "Linked Lists", "Stacks", "Queues", "Trees", "Graphs"],
+          "url": "https://www.coursera.org/courses?query=data%20structures%20algorithms"
+        },
+        {
+          "title": "Algorithms and Problem Solving",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["Sorting", "Searching", "Recursion", "Greedy", "Dynamic Programming"],
+          "url": "https://www.coursera.org/courses?query=algorithms%20problem%20solving"
+        },
+        {
+          "title": "Java Programming",
+          "provider": "Oracle",
+          "level": "Intermediate",
+          "skills": ["Java", "Collections", "Exception Handling", "File Handling"],
+          "url": "https://dev.java/learn/"
+        },
+        {
+          "title": "Python Programming",
+          "provider": "Python",
+          "level": "Beginner",
+          "skills": ["Python", "OOP", "Functions", "Modules", "Data Structures"],
+          "url": "https://docs.python.org/3/tutorial/"
+        },
+        {
+          "title": "Database Management and SQL",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["SQL", "PostgreSQL", "Normalization", "Transactions"],
+          "url": "https://www.coursera.org/courses?query=database%20sql"
+        },
+        {
+          "title": "Operating Systems",
+          "provider": "Coursera",
+          "level": "Advanced",
+          "skills": ["Processes", "Threads", "Memory Management", "Scheduling"],
+          "url": "https://www.coursera.org/courses?query=operating%20systems"
+        },
+        {
+          "title": "Computer Networks",
+          "provider": "Coursera",
+          "level": "Intermediate",
+          "skills": ["TCP/IP", "HTTP", "DNS", "IP Addressing", "Networking"],
+          "url": "https://www.coursera.org/courses?query=computer%20networks"
+        },
+        {
+          "title": "System Design",
+          "provider": "Udemy",
+          "level": "Advanced",
+          "skills": ["Scalability", "Caching", "Load Balancing", "Microservices"],
+          "url": "https://www.udemy.com/courses/search/?q=system%20design"
+        }
+      ]
+    },
+
+    {
+      "domain": "Cloud Engineer",
+      "courses": [
+        {
+          "title": "Linux Fundamentals",
+          "provider": "Linux Foundation",
+          "level": "Beginner",
+          "skills": ["Linux", "Commands", "File Systems", "Permissions"],
+          "url": "https://training.linuxfoundation.org/training/introduction-to-linux/"
+        },
+        {
+          "title": "Computer Networking Fundamentals",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["TCP/IP", "DNS", "HTTP", "IP Addressing", "Routing"],
+          "url": "https://www.coursera.org/courses?query=computer%20networking"
+        },
+        {
+          "title": "Cloud Computing Fundamentals",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["Cloud Computing", "IaaS", "PaaS", "SaaS", "Virtualization"],
+          "url": "https://www.coursera.org/courses?query=cloud%20computing"
+        },
+        {
+          "title": "AWS Cloud Fundamentals",
+          "provider": "AWS",
+          "level": "Beginner",
+          "skills": ["AWS", "EC2", "S3", "IAM", "VPC"],
+          "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/"
+        },
+        {
+          "title": "AWS Solutions Architecture",
+          "provider": "AWS",
+          "level": "Intermediate",
+          "skills": ["AWS", "Architecture", "VPC", "EC2", "RDS", "Load Balancing"],
+          "url": "https://aws.amazon.com/training/learn-about/architect/"
+        },
+        {
+          "title": "Microsoft Azure Fundamentals",
+          "provider": "Microsoft",
+          "level": "Beginner",
+          "skills": ["Azure", "Virtual Machines", "Storage", "Networking"],
+          "url": "https://learn.microsoft.com/training/paths/azure-fundamentals-describe-cloud-concepts/"
+        },
+        {
+          "title": "Docker and Containerization",
+          "provider": "Docker",
+          "level": "Intermediate",
+          "skills": ["Docker", "Containers", "Dockerfiles", "Docker Compose"],
+          "url": "https://docs.docker.com/get-started/"
+        },
+        {
+          "title": "Kubernetes Fundamentals",
+          "provider": "Kubernetes",
+          "level": "Intermediate",
+          "skills": ["Kubernetes", "Pods", "Deployments", "Services", "Ingress"],
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"
+        },
+        {
+          "title": "Terraform Infrastructure as Code",
+          "provider": "HashiCorp",
+          "level": "Advanced",
+          "skills": ["Terraform", "Infrastructure as Code", "Automation", "Cloud Infrastructure"],
+          "url": "https://developer.hashicorp.com/terraform/tutorials"
+        },
+        {
+          "title": "Cloud Security and Monitoring",
+          "provider": "Coursera",
+          "level": "Advanced",
+          "skills": ["Cloud Security", "IAM", "Monitoring", "Logging", "Encryption"],
+          "url": "https://www.coursera.org/courses?query=cloud%20security"
+        }
+      ]
+    },
+
+    {
+      "domain": "DevOps Engineer",
+      "courses": [
+        {
+          "title": "Linux for DevOps",
+          "provider": "Linux Foundation",
+          "level": "Beginner",
+          "skills": ["Linux", "Shell Commands", "Permissions", "Processes"],
+          "url": "https://training.linuxfoundation.org/training/introduction-to-linux/"
+        },
+        {
+          "title": "Networking for DevOps",
+          "provider": "Coursera",
+          "level": "Beginner",
+          "skills": ["TCP/IP", "DNS", "HTTP", "Routing", "Firewalls"],
+          "url": "https://www.coursera.org/courses?query=networking%20devops"
+        },
+        {
+          "title": "Git and GitHub for Developers",
+          "provider": "GitHub",
+          "level": "Beginner",
+          "skills": ["Git", "GitHub", "Branches", "Pull Requests"],
+          "url": "https://skills.github.com/"
+        },
+        {
+          "title": "Python and Bash Automation",
+          "provider": "Udemy",
+          "level": "Intermediate",
+          "skills": ["Python", "Bash", "Automation", "Scripting"],
+          "url": "https://www.udemy.com/courses/search/?q=python%20bash%20automation"
+        },
+        {
+          "title": "Docker for DevOps",
+          "provider": "Docker",
+          "level": "Intermediate",
+          "skills": ["Docker", "Containers", "Dockerfiles", "Docker Compose"],
+          "url": "https://docs.docker.com/get-started/"
+        },
+        {
+          "title": "CI/CD with Jenkins",
+          "provider": "Jenkins",
+          "level": "Intermediate",
+          "skills": ["Jenkins", "CI/CD", "Pipelines", "Automation"],
+          "url": "https://www.jenkins.io/doc/tutorials/"
+        },
+        {
+          "title": "GitHub Actions and CI/CD",
+          "provider": "GitHub",
+          "level": "Intermediate",
+          "skills": ["GitHub Actions", "CI/CD", "Workflows", "Automation"],
+          "url": "https://docs.github.com/actions/learn-github-actions"
+        },
+        {
+          "title": "Kubernetes for DevOps",
+          "provider": "Kubernetes",
+          "level": "Advanced",
+          "skills": ["Kubernetes", "Pods", "Deployments", "Services", "Ingress"],
+          "url": "https://kubernetes.io/docs/tutorials/"
+        },
+        {
+          "title": "Terraform and Infrastructure Automation",
+          "provider": "HashiCorp",
+          "level": "Advanced",
+          "skills": ["Terraform", "IaC", "Cloud Automation", "Infrastructure"],
+          "url": "https://developer.hashicorp.com/terraform/tutorials"
+        },
+        {
+          "title": "DevOps Monitoring and Security",
+          "provider": "Coursera",
+          "level": "Advanced",
+          "skills": ["Prometheus", "Grafana", "Logging", "Monitoring", "DevSecOps"],
+          "url": "https://www.coursera.org/courses?query=devops%20monitoring%20security"
+        }
+      ]
+    }
+  ]
+}

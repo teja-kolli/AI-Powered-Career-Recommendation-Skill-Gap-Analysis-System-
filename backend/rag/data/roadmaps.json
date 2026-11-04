@@ -1,0 +1,459 @@
+{
+  "roadmaps": [
+    {
+      "career": "AI/ML Engineer",
+      "steps": [
+        {
+          "order": 1,
+          "topic": "Python",
+          "skills": ["Python basics", "OOP", "Functions", "Modules"]
+        },
+        {
+          "order": 2,
+          "topic": "NumPy",
+          "skills": ["Arrays", "Numerical computing", "Matrix operations"]
+        },
+        {
+          "order": 3,
+          "topic": "Pandas",
+          "skills": ["DataFrames", "Data cleaning", "Data analysis"]
+        },
+        {
+          "order": 4,
+          "topic": "SQL",
+          "skills": ["SELECT", "JOIN", "GROUP BY", "Subqueries"]
+        },
+        {
+          "order": 5,
+          "topic": "Mathematics and Statistics",
+          "skills": ["Probability", "Statistics", "Linear algebra", "Calculus"]
+        },
+        {
+          "order": 6,
+          "topic": "Machine Learning",
+          "skills": ["Regression", "Classification", "Clustering", "Model evaluation"]
+        },
+        {
+          "order": 7,
+          "topic": "Scikit-learn",
+          "skills": ["Preprocessing", "Training", "Evaluation", "Pipelines"]
+        },
+        {
+          "order": 8,
+          "topic": "Deep Learning",
+          "skills": ["Neural networks", "CNN", "RNN", "Transformers"]
+        },
+        {
+          "order": 9,
+          "topic": "PyTorch",
+          "skills": ["Tensors", "Datasets", "Training", "GPU"]
+        },
+        {
+          "order": 10,
+          "topic": "Computer Vision and NLP",
+          "skills": ["OpenCV", "Image classification", "NLP", "Transformers"]
+        },
+        {
+          "order": 11,
+          "topic": "Generative AI",
+          "skills": ["LLMs", "Prompt engineering", "Embeddings", "RAG"]
+        },
+        {
+          "order": 12,
+          "topic": "Projects",
+          "skills": ["End-to-end projects", "GitHub", "Documentation"]
+        },
+        {
+          "order": 13,
+          "topic": "Deployment",
+          "skills": ["FastAPI", "Docker", "Cloud", "Model deployment"]
+        },
+        {
+          "order": 14,
+          "topic": "Placement Preparation",
+          "skills": ["DSA", "SQL interviews", "ML interviews", "Resume"]
+        }
+      ]
+    },
+
+    {
+      "career": "Data Scientist",
+      "steps": [
+        {
+          "order": 1,
+          "topic": "Python",
+          "skills": ["Python basics", "OOP", "Functions", "Data structures"]
+        },
+        {
+          "order": 2,
+          "topic": "NumPy",
+          "skills": ["Arrays", "Vectorization", "Numerical computing", "Matrix operations"]
+        },
+        {
+          "order": 3,
+          "topic": "Pandas",
+          "skills": ["DataFrames", "Data cleaning", "Data manipulation", "Data analysis"]
+        },
+        {
+          "order": 4,
+          "topic": "SQL",
+          "skills": ["SELECT", "JOIN", "GROUP BY", "Subqueries", "Window functions"]
+        },
+        {
+          "order": 5,
+          "topic": "Statistics",
+          "skills": ["Probability", "Descriptive statistics", "Inferential statistics", "Hypothesis testing"]
+        },
+        {
+          "order": 6,
+          "topic": "Data Visualization",
+          "skills": ["Matplotlib", "Seaborn", "Charts", "Data storytelling"]
+        },
+        {
+          "order": 7,
+          "topic": "Exploratory Data Analysis",
+          "skills": ["Data exploration", "Outlier detection", "Correlation analysis", "Feature analysis"]
+        },
+        {
+          "order": 8,
+          "topic": "Machine Learning",
+          "skills": ["Regression", "Classification", "Clustering", "Model evaluation"]
+        },
+        {
+          "order": 9,
+          "topic": "Scikit-learn",
+          "skills": ["Preprocessing", "Feature engineering", "Training", "Pipelines"]
+        },
+        {
+          "order": 10,
+          "topic": "Advanced Machine Learning",
+          "skills": ["Ensemble methods", "Random Forest", "Gradient Boosting", "XGBoost"]
+        },
+        {
+          "order": 11,
+          "topic": "Projects",
+          "skills": ["Data analysis projects", "ML projects", "End-to-end projects", "GitHub"]
+        },
+        {
+          "order": 12,
+          "topic": "Model Deployment",
+          "skills": ["FastAPI", "Streamlit", "Docker", "Model serving"]
+        },
+        {
+          "order": 13,
+          "topic": "Generative AI",
+          "skills": ["LLMs", "Prompt engineering", "Embeddings", "RAG"]
+        },
+        {
+          "order": 14,
+          "topic": "Placement Preparation",
+          "skills": ["DSA", "SQL interviews", "Statistics interviews", "ML interviews", "Resume"]
+        }
+      ]
+    },
+
+    {
+      "career": "Web Developer",
+      "steps": [
+        {
+          "order": 1,
+          "topic": "HTML",
+          "skills": ["HTML basics", "Semantic HTML", "Forms", "Tables"]
+        },
+        {
+          "order": 2,
+          "topic": "CSS",
+          "skills": ["Selectors", "Box model", "Flexbox", "Grid", "Responsive design"]
+        },
+        {
+          "order": 3,
+          "topic": "JavaScript",
+          "skills": ["Variables", "Functions", "Arrays", "Objects", "DOM", "Events"]
+        },
+        {
+          "order": 4,
+          "topic": "Advanced JavaScript",
+          "skills": ["ES6", "Promises", "Async/Await", "Fetch API", "Modules"]
+        },
+        {
+          "order": 5,
+          "topic": "Git and GitHub",
+          "skills": ["Git basics", "Branches", "Commits", "Pull requests", "GitHub"]
+        },
+        {
+          "order": 6,
+          "topic": "React",
+          "skills": ["Components", "Props", "State", "Hooks", "React Router"]
+        },
+        {
+          "order": 7,
+          "topic": "Frontend Development",
+          "skills": ["Axios", "Forms", "Authentication", "API integration", "Responsive UI"]
+        },
+        {
+          "order": 8,
+          "topic": "Backend Development",
+          "skills": ["REST APIs", "HTTP", "Authentication", "Server-side programming"]
+        },
+        {
+          "order": 9,
+          "topic": "Django and REST Framework",
+          "skills": ["Django", "Models", "Views", "Serializers", "Django REST Framework"]
+        },
+        {
+          "order": 10,
+          "topic": "Databases",
+          "skills": ["SQL", "PostgreSQL", "Database design", "Relationships", "Queries"]
+        },
+        {
+          "order": 11,
+          "topic": "Full Stack Projects",
+          "skills": ["E-commerce", "Authentication", "CRUD applications", "API integration"]
+        },
+        {
+          "order": 12,
+          "topic": "Deployment",
+          "skills": ["Vercel", "Render", "Docker", "Environment variables", "CI/CD basics"]
+        },
+        {
+          "order": 13,
+          "topic": "Web Security",
+          "skills": ["CORS", "JWT", "HTTPS", "Authentication", "Authorization"]
+        },
+        {
+          "order": 14,
+          "topic": "Placement Preparation",
+          "skills": ["JavaScript interviews", "React interviews", "HTML/CSS", "SQL", "DSA", "Resume"]
+        }
+      ]
+    },
+
+    {
+      "career": "Software Developer",
+      "steps": [
+        {
+          "order": 1,
+          "topic": "Programming Fundamentals",
+          "skills": ["Variables", "Data types", "Operators", "Conditions", "Loops"]
+        },
+        {
+          "order": 2,
+          "topic": "Object-Oriented Programming",
+          "skills": ["Classes", "Objects", "Inheritance", "Polymorphism", "Encapsulation", "Abstraction"]
+        },
+        {
+          "order": 3,
+          "topic": "Data Structures",
+          "skills": ["Arrays", "Linked lists", "Stacks", "Queues", "Hash tables", "Trees", "Graphs"]
+        },
+        {
+          "order": 4,
+          "topic": "Algorithms",
+          "skills": ["Searching", "Sorting", "Recursion", "Greedy algorithms", "Dynamic programming"]
+        },
+        {
+          "order": 5,
+          "topic": "Java or Python",
+          "skills": ["Core Java or Python", "Collections", "Exception handling", "File handling"]
+        },
+        {
+          "order": 6,
+          "topic": "Database Management",
+          "skills": ["SQL", "PostgreSQL", "MySQL", "Normalization", "Transactions"]
+        },
+        {
+          "order": 7,
+          "topic": "Operating Systems",
+          "skills": ["Processes", "Threads", "Memory management", "File systems", "Scheduling"]
+        },
+        {
+          "order": 8,
+          "topic": "Computer Networks",
+          "skills": ["OSI model", "TCP/IP", "HTTP", "DNS", "IP addressing", "Sockets"]
+        },
+        {
+          "order": 9,
+          "topic": "Software Engineering",
+          "skills": ["SDLC", "Agile", "Design patterns", "Testing", "Debugging"]
+        },
+        {
+          "order": 10,
+          "topic": "Backend Development",
+          "skills": ["REST APIs", "Authentication", "Django", "Spring Boot", "API design"]
+        },
+        {
+          "order": 11,
+          "topic": "System Design",
+          "skills": ["Scalability", "Load balancing", "Caching", "Databases", "Microservices"]
+        },
+        {
+          "order": 12,
+          "topic": "Git and GitHub",
+          "skills": ["Version control", "Branches", "Merge", "Pull requests", "Collaboration"]
+        },
+        {
+          "order": 13,
+          "topic": "Software Projects",
+          "skills": ["Full-stack projects", "Backend projects", "Testing", "Documentation", "GitHub"]
+        },
+        {
+          "order": 14,
+          "topic": "Placement Preparation",
+          "skills": ["DSA", "OOP interviews", "DBMS", "Operating systems", "Networks", "System design", "Resume"]
+        }
+      ]
+    },
+
+    {
+      "career": "Cloud Engineer",
+      "steps": [
+        {
+          "order": 1,
+          "topic": "Linux",
+          "skills": ["Linux commands", "File systems", "Permissions", "Processes", "Shell scripting"]
+        },
+        {
+          "order": 2,
+          "topic": "Networking",
+          "skills": ["IP addressing", "DNS", "TCP/IP", "HTTP", "Routing", "Firewalls"]
+        },
+        {
+          "order": 3,
+          "topic": "Python and Scripting",
+          "skills": ["Python basics", "Automation", "Shell scripting", "APIs"]
+        },
+        {
+          "order": 4,
+          "topic": "Cloud Fundamentals",
+          "skills": ["Cloud computing", "IaaS", "PaaS", "SaaS", "Regions", "Availability zones"]
+        },
+        {
+          "order": 5,
+          "topic": "AWS",
+          "skills": ["EC2", "S3", "IAM", "VPC", "RDS", "CloudWatch"]
+        },
+        {
+          "order": 6,
+          "topic": "Azure",
+          "skills": ["Virtual Machines", "Storage", "Virtual Networks", "Azure AD", "Monitor"]
+        },
+        {
+          "order": 7,
+          "topic": "Cloud Databases",
+          "skills": ["RDS", "DynamoDB", "Cloud SQL", "Database backups", "Replication"]
+        },
+        {
+          "order": 8,
+          "topic": "Docker",
+          "skills": ["Images", "Containers", "Dockerfiles", "Volumes", "Networks"]
+        },
+        {
+          "order": 9,
+          "topic": "Kubernetes",
+          "skills": ["Pods", "Deployments", "Services", "ConfigMaps", "Secrets"]
+        },
+        {
+          "order": 10,
+          "topic": "Infrastructure as Code",
+          "skills": ["Terraform", "Infrastructure automation", "Configuration management"]
+        },
+        {
+          "order": 11,
+          "topic": "Cloud Security",
+          "skills": ["IAM", "Encryption", "Security groups", "Access control", "Secrets management"]
+        },
+        {
+          "order": 12,
+          "topic": "Monitoring and Logging",
+          "skills": ["CloudWatch", "Azure Monitor", "Logs", "Metrics", "Alerts"]
+        },
+        {
+          "order": 13,
+          "topic": "Cloud Projects",
+          "skills": ["Cloud deployment", "Scalable applications", "Docker deployment", "Infrastructure projects"]
+        },
+        {
+          "order": 14,
+          "topic": "Placement Preparation",
+          "skills": ["Cloud interviews", "Linux", "Networking", "Docker", "AWS/Azure", "Resume"]
+        }
+      ]
+    },
+
+    {
+      "career": "DevOps Engineer",
+      "steps": [
+        {
+          "order": 1,
+          "topic": "Linux",
+          "skills": ["Linux commands", "File systems", "Permissions", "Processes", "Shell scripting"]
+        },
+        {
+          "order": 2,
+          "topic": "Networking",
+          "skills": ["TCP/IP", "DNS", "HTTP", "IP addressing", "Routing", "Firewalls"]
+        },
+        {
+          "order": 3,
+          "topic": "Git and GitHub",
+          "skills": ["Git", "Branches", "Merge", "Pull requests", "GitHub workflows"]
+        },
+        {
+          "order": 4,
+          "topic": "Python and Shell Scripting",
+          "skills": ["Python", "Bash", "Automation", "Task scripting", "APIs"]
+        },
+        {
+          "order": 5,
+          "topic": "Docker",
+          "skills": ["Images", "Containers", "Dockerfiles", "Volumes", "Docker Compose"]
+        },
+        {
+          "order": 6,
+          "topic": "CI/CD",
+          "skills": ["Continuous integration", "Continuous delivery", "GitHub Actions", "Jenkins", "Pipelines"]
+        },
+        {
+          "order": 7,
+          "topic": "Cloud Computing",
+          "skills": ["AWS", "Azure", "Compute", "Storage", "Networking", "IAM"]
+        },
+        {
+          "order": 8,
+          "topic": "Kubernetes",
+          "skills": ["Pods", "Deployments", "Services", "Ingress", "ConfigMaps", "Secrets"]
+        },
+        {
+          "order": 9,
+          "topic": "Infrastructure as Code",
+          "skills": ["Terraform", "Infrastructure automation", "State management", "Modules"]
+        },
+        {
+          "order": 10,
+          "topic": "Configuration Management",
+          "skills": ["Ansible", "Automation", "Playbooks", "Server configuration"]
+        },
+        {
+          "order": 11,
+          "topic": "Monitoring and Logging",
+          "skills": ["Prometheus", "Grafana", "ELK", "Logs", "Metrics", "Alerts"]
+        },
+        {
+          "order": 12,
+          "topic": "DevSecOps",
+          "skills": ["Security scanning", "Secrets management", "Container security", "Access control"]
+        },
+        {
+          "order": 13,
+          "topic": "DevOps Projects",
+          "skills": ["CI/CD projects", "Docker deployment", "Kubernetes projects", "Cloud automation"]
+        },
+        {
+          "order": 14,
+          "topic": "Placement Preparation",
+          "skills": ["Linux interviews", "Networking", "Docker", "Kubernetes", "CI/CD", "Cloud", "Resume"]
+        }
+      ]
+    }
+  ]
+}

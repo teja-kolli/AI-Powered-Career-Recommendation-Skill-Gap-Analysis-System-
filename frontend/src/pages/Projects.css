@@ -1,0 +1,272 @@
+.projects-page {
+    min-height: 100vh;
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.projects-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.projects-back {
+    border: none;
+    background: transparent;
+    color: #6366f1;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.projects-header span {
+    color: #6366f1;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.projects-header h1 {
+    color: #111827;
+    font-size: 34px;
+    margin: 8px 0;
+}
+
+.projects-header p {
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.04);
+}
+
+.project-icon {
+    width: 50px;
+    height: 50px;
+    background: #eef2ff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.project-level {
+    display: inline-block;
+    margin-top: 18px;
+    color: #6366f1;
+    background: #eef2ff;
+    padding: 5px 9px;
+    border-radius: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.project-card h2 {
+    color: #111827;
+    font-size: 19px;
+    margin: 12px 0;
+}
+
+.project-card p {
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 18px 0;
+}
+
+.tech-list span {
+    padding: 6px 9px;
+    background: #f3f4f6;
+    border-radius: 15px;
+    color: #374151;
+    font-size: 11px;
+}
+
+.project-card a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.projects-empty {
+    text-align: center;
+    background: white;
+    padding: 70px;
+    border-radius: 15px;
+}
+
+.projects-empty div {
+    font-size: 45px;
+}
+
+.projects-empty h2 {
+    color: #111827;
+}
+
+.projects-empty p {
+    color: #6b7280;
+}
+
+.projects-loading {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6b7280;
+}
+
+@media(max-width:900px) {
+    .projects-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:600px) {
+    .projects-page {
+        padding: 20px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==============================
+   PROFILE VIEW
+============================== */
+
+.profile-view {
+    width: 100%;
+}
+
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.profile-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1f2937;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 10px;
+}
+
+.profile-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.profile-info {
+    background: #f8fafc;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+.profile-info span {
+    display: block;
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.profile-info strong {
+    display: block;
+    color: #111827;
+    font-size: 16px;
+}
+
+.profile-bio {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    padding: 18px;
+    border-radius: 10px;
+    line-height: 1.6;
+    color: #374151;
+    white-space: pre-wrap;
+}
+
+
+/* ==============================
+   BUTTONS
+============================== */
+
+.profile-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.save-button {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background: #1d4ed8;
+}
+
+.save-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.cancel-button {
+    border: 1px solid #d1d5db;
+    background: white;
+    color: #374151;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background: #f3f4f6;
+}
+
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 700px) {
+
+    .profile-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-actions {
+        flex-direction: column;
+    }
+
+    .save-button,
+    .cancel-button {
+        width: 100%;
+    }
+}
